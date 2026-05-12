@@ -100,3 +100,41 @@ WHERE (EXTRACT(YEAR FROM o.purchase_ts) = 2022 and purchase_platform = 'website'
   OR purchase_platform = 'mobile'
 GROUP BY 1
 ORDER BY 2 DESC;
+
+--What was the refund rate and refund count for each product overall? 
+--Tables we need orders, order_status, count no. of refunds and calculate refund rate
+SELECT CASE WHEN product_name = '27in"" 4k gaming monitor' THEN '27in 4K gaming monitor' ELSE product_name END AS product_clean,
+SUM(CASE WHEN refund_ts IS NULL THEN 0 ELSE 1 END) AS refund_count,
+  AVG(CASE WHEN refund_ts IS NULL THEN 0 ELSE 1 END) AS refund_rate
+FROM `core.order_status` AS os
+LEFT JOIN core.orders AS o
+  ON o.id = os.order_id
+GROUP BY 1
+ORDER BY 3 DESC;
+
+--Within each region, what is the most popular product? 
+-- Tables to join geo_lookup, orders, customers. Count total orders per product per region, then rank each product and region by the total orders in new CTE, order by this ranking to find the most popular product per region.
+WITH order_count_cte AS (
+  SELECT 
+    geo.region,
+    CASE 
+      WHEN o.product_name = '27in"" 4k gaming monitor' THEN '27in 4k gaming monitor'
+      ELSE o.product_name
+    END AS product_clean,
+    COUNT(DISTINCT o.id) AS order_count
+  FROM `core.orders` AS o
+  LEFT JOIN `core.customers_orig` AS c
+    ON o.customer_id = c.id
+  LEFT JOIN `core.geo_lookup` AS geo
+    ON c.country_code = geo.country_code
+  GROUP BY 1,2
+),
+ranking_cte AS (
+  SELECT *,
+    ROW_NUMBER() OVER (PARTITION BY region ORDER BY order_count DESC) AS ranking
+  FROM order_count_cte
+)
+
+SELECT *
+FROM ranking_cte
+WHERE ranking = 1;
