@@ -7,16 +7,16 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 
 ## Key terms and metrics used throughout this analysis:
 
-Revenue - Total sales generated from customer purchases. 
-Order Count - Number of unique customer orders. 
-Average Order Value (AOV) - Average revenue generated per order. 
-Monthly Revenue Growth - Change in revenue across months.
-Year-over-Year Growth - Revenue growth compared with the previous year.
-Refund Rate - Percentage of orders that were refunded.
-Loyalty Status - Indicates whether a customer is part of the loyalty program.
-Marketing Channel - Channel that influenced or generated the order.
-Product Name - Product purchased by the customer.
-Purchase Month / Year - Time period when the order was placed.
+- Revenue - Total sales generated from customer purchases.
+- Order Count - Number of unique customer orders.
+- Average Order Value (AOV) - Average revenue generated per order.
+-  Monthly Revenue Growth - Change in revenue across months.
+-  Year-over-Year Growth - Revenue growth compared with the previous year.
+-  Refund Rate - Percentage of orders that were refunded.
+-  Loyalty Status - Indicates whether a customer is part of the loyalty program.
+-  Marketing Channel - Channel that influenced or generated the order.
+-  Product Name - Product purchased by the customer.
+-  Purchase Month / Year - Time period when the order was placed.
 
 ## Execitive Summary
 
