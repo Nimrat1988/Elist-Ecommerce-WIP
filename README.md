@@ -63,71 +63,69 @@ A small group of products is responsible for a large share of total revenue. Thi
 
 
 4. Marketing Channel Performance
-Direct traffic generated the highest revenue contribution.
-Email was the second strongest marketing channel.
-Affiliate, social media, and unknown channels contributed less revenue compared with direct and email.
-Marketing performance should be evaluated not only by total revenue, but also by order count, AOV, and refund rate.
+- Direct traffic generated the highest revenue contribution.
+- Email was the second strongest marketing channel.
+- Affiliate, social media, and unknown channels contributed less revenue compared with direct and email.
+- Marketing performance should be evaluated not only by total revenue, but also by order count, AOV, and refund rate.
 
-Business Interpretation
 Direct and email channels appear to be the strongest revenue drivers. This suggests the business may have an existing base of customers who return directly or respond well to email campaigns. Lower-performing channels should be reviewed to understand whether the issue is low traffic, poor conversion, weak customer quality, or lower average order value.
 
 5. Loyalty Status Analysis
-Non-loyalty customers generated higher total revenue than loyalty customers.
-Non-loyalty customers also had a higher average order value.
-Loyalty customers had a higher refund rate than non-loyalty customers.
-This suggests that loyalty membership does not automatically mean higher customer value in this dataset.
+- Non-loyalty customers generated higher total revenue than loyalty customers.
+- Non-loyalty customers also had a higher average order value.
+- Loyalty customers had a higher refund rate than non-loyalty customers.
+- This suggests that loyalty membership does not automatically mean higher customer value in this dataset.
 
-Business Interpretation
 The loyalty program should be reviewed to understand whether it is successfully increasing customer value. If loyalty customers have lower AOV or higher refund rates, the company may need to adjust loyalty offers, improve customer targeting, or evaluate whether discounts are attracting lower-margin behavior.
 
 
 6. Refund Risk
-Overall refund rate was approximately 5%.
-Some high-revenue products also had higher refund rates.
-ThinkPad Laptop and MacBook Air Laptop showed higher refund rates compared with several other products.
-Refund analysis is important because refunds reduce net revenue, increase operational costs, and may indicate product quality or customer satisfaction issues.
+- Overall refund rate was approximately 5%.
+- Some high-revenue products also had higher refund rates.
+- ThinkPad Laptop and MacBook Air Laptop showed higher refund rates compared with several other products.
+- Refund analysis is important because refunds reduce net revenue, increase operational costs, and may indicate product quality or customer satisfaction issues.
 
-Business Interpretation
 High refund-rate products should be investigated by product, operations, and customer support teams. The issue may be related to product quality, product descriptions, shipping problems, customer expectations, or return policy behavior.
 
 # Recommendations
-Sales and Revenue Strategy
-Investigate the 2022 revenue decline to identify whether the drop was caused by lower order volume, lower AOV, weaker product demand, or marketing channel underperformance.
-Use the monthly average revenue benchmark of approximately $586K as a performance reference for future months.
-Review months that fall significantly below the benchmark to identify early warning signs.
+- Sales and Revenue Strategy
+- Investigate the 2022 revenue decline to identify whether the drop was caused by lower order volume, lower AOV, weaker product demand, or marketing channel underperformance.
+- Use the monthly average revenue benchmark of approximately $586K as a performance reference for future months.
+- Review months that fall significantly below the benchmark to identify early warning signs.
 
 Relevant teams: Sales, Finance, Executive Leadership
 
 Product Strategy
-Prioritize inventory and marketing support for the top revenue-generating products.
-Monitor dependence on a small number of products, as revenue concentration can create business risk.
-Review declining or low-performing products to determine whether they should be repositioned, discounted, bundled, or removed.
+- Prioritize inventory and marketing support for the top revenue-generating products.
+- Monitor dependence on a small number of products, as revenue concentration can create business risk.
+- Review declining or low-performing products to determine whether they should be repositioned, discounted, bundled, or removed.
 
 Relevant teams: Product, Inventory Management, Merchandising, Marketing
 
 Loyalty Program Strategy
-Reevaluate the loyalty program to determine whether loyalty customers are generating enough incremental value.
-Compare loyalty and non-loyalty customers across revenue, order count, AOV, and refund rate.
-Consider redesigning loyalty offers to encourage higher-value purchases rather than only discount-driven behavior.
-Investigate why loyalty customers have a higher refund rate.
+- Reevaluate the loyalty program to determine whether loyalty customers are generating enough incremental value.
+- Compare loyalty and non-loyalty customers across revenue, order count, AOV, and refund rate.
+- Consider redesigning loyalty offers to encourage higher-value purchases rather than only discount-driven behavior.
+- Investigate why loyalty customers have a higher refund rate.
 
 Relevant teams: Customer Retention, Marketing, Finance, Customer Experience
 
 Marketing Channel Strategy
-Continue investing in high-performing channels such as direct and email.
-Analyze lower-performing channels to determine whether they have low conversion rates, low AOV, or poor customer quality.
-Track marketing channel performance using revenue, orders, AOV, and refund rate together instead of revenue alone.
+- Continue investing in high-performing channels such as direct and email.
+- Analyze lower-performing channels to determine whether they have low conversion rates, low AOV, or poor customer quality.
+- Track marketing channel performance using revenue, orders, AOV, and refund rate together instead of revenue alone.
 
 Relevant teams: Marketing, Growth, Finance
 
 Refund Reduction Strategy
-Investigate products with higher refund rates, especially high-value products such as laptops.
-Review product descriptions, customer reviews, shipping times, and customer support tickets to identify refund drivers.
-Work with suppliers or operations teams to address potential quality or fulfillment issues.
+ - Investigate products with higher refund rates, especially high-value products such as laptops.
+ - Review product descriptions, customer reviews, shipping times, and customer support tickets to identify refund drivers.
+ - Work with suppliers or operations teams to address potential quality or fulfillment issues.
 
 Relevant teams: Operations, Product, Customer Support, Quality Assurance
 
 ## Tools Used
 Microsoft Excel: data cleaning, pivot analysis, initial exploration
+BigQuery: SQL querying, data extraction, aggregation, and analysis
 Tableau: dashboard creation and visual analytics
 GitHub: project documentation and portfolio presentation
