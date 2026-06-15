@@ -31,12 +31,12 @@ Overall, the dashboard helps identify revenue trends, product performance, custo
 
 # Insights Deep Dive
 1. Monthly Revenue Performance
-Revenue increased significantly from 2019 to 2020.
-Monthly revenue peaked in December 2020 at approximately $1.3M.
-The average monthly revenue across the full period was approximately $586K.
-Most months in 2020 and 2021 performed above the average monthly revenue benchmark.
-Revenue declined sharply in 2022, with most months falling below the average.
-The lowest revenue month was October 2022, at approximately $178K.
+- Revenue increased significantly from 2019 to 2020.
+- Monthly revenue peaked in December 2020 at approximately $1.3M.
+- The average monthly revenue across the full period was approximately $586K.
+- Most months in 2020 and 2021 performed above the average monthly revenue benchmark.
+- Revenue declined sharply in 2022, with most months falling below the average.
+- The lowest revenue month was October 2022, at approximately $178K.
 
 Business Interpretation
 The monthly trend suggests the company experienced strong growth through 2020, maintained relatively strong performance in 2021, and then faced a noticeable slowdown in 2022. The decline in 2022 should be investigated further to determine whether it was caused by lower order volume, lower average order value, weaker product demand, marketing channel performance, or increased refunds.
