@@ -1,4 +1,4 @@
-# Elist Post-Pandemic E-commerce Analyis
+# Elist Post-Pandemic E-commerce Analysis
 
 
 # Project Background
