@@ -19,7 +19,7 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 ## Execitive Summary
 
 <p align="center">
-  <img src="desktop/Analytics Accelator Program/Visualiztions/Company Overview Dashboard.png" width="700"/>
+  <img src="Company_Overview_Dashboard.png" width="700"/>
 </p>
 
 This project analyzes over 108K e-commerce orders from 2019 to 2022. Total revenue was approximately $28.1M, with the strongest performance occurring in 2020. Revenue peaked in December 2020 at approximately $1.3M before declining in 2022, where most months fell below the overall monthly average of approximately $586K.
