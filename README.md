@@ -1,3 +1,4 @@
+
 # Elist Post-Pandemic E-commerce Analysis
 
 
@@ -19,115 +20,62 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 ## Execitive Summary
 
 <p align="center">
-  <img src="Company_Overview_Dashboard.png" width="700"/>
+  <img width="2350" height="1251" alt="Company_Overview_Dashboard" src="https://github.com/user-attachments/assets/a3220ff9-84ae-45ee-983c-9229c4f7ad2d" />
 </p>
 
-This project analyzes over 108K e-commerce orders from 2019 to 2022. Total revenue was approximately $28.1M, with the strongest performance occurring in 2020. Revenue peaked in December 2020 at approximately $1.3M before declining in 2022, where most months fell below the overall monthly average of approximately $586K.
-
-Product performance was highly concentrated among a small group of products, with the 27in 4K Gaming Monitor, Apple AirPods Headphones, MacBook Air Laptop, and ThinkPad Laptop contributing the majority of revenue. Loyalty analysis showed that non-loyalty customers generated higher total revenue and higher average order value, while loyalty customers had a higher refund rate. This suggests the loyalty program should be reviewed to determine whether it is attracting high-value customers or simply increasing discount-driven purchasing behavior.
-
-Overall, the dashboard helps identify revenue trends, product performance, customer value differences, marketing channel performance, and refund risk areas that require deeper business investigation.
+- Elist generaged **$28.1M** in total revenue across **$108,127** between 2019 and 2022, with an average order value of **$260** and an overall refund rate of **5%**.
+- Revenue grew steadily from 2019, surged during the pandemic, and peaked at **$1.3M in December 2020**, more than double the four-year montly average of $586K. every month in 2022 fell below that average, with the lowest point hitting **$178K in October 2022**, an 86% drop from peak.
+- 2020 delivered **108% revenue growth** driven by simultaneous gains in order volume and AOV. By 2022 the situation had reversed — revenue fell **47% year-over-year**, order count dropped **36%**, and AOV declined **18%**. All three metrics declining together confirms a broad demand contraction, not a product or channel-specific issue.
+- Non-loyalty customers still outspend loyalty members, generating **61% of total revenue** at a higher AOV of **$274 vs $240**. However loyalty revenue grew **6x from $415K to $2.7M** while non-loyalty collapsed from $7.2M to $2.2M. By 2022 the two groups were nearly equal, the program is gaining traction precisely as organic demand fails.
+- Direct channel dominates at **82.65% of total revenue (~$23M)**. Email contributes another **11.92%**. Together they account for 95% of all sales. Affiliate and social media combined contribute under 5% — their ROI warrants review.
+- Four products carry the business — the 27in 4K Gaming Monitor ($9.85M), Apple AirPods ($7.74M), MacBook Air ($6.3M), and ThinkPad Laptop ($3.2M). All four declined sharply in 2022 with no replacement products in the catalog positioned to fill the gap.
+- MacBook Air is the highest-risk product, **11.4% refund rate** at $6.3M revenue puts it in the top-right danger quadrant. ThinkPad follows at **11.8%** with lower revenue limiting the damage. Gaming Monitor and AirPods are healthy despite high volume. Note: 2022 refund data is incomplete and shows 0% — this reflects missing data, not actual performance.
 
 ## Data Structure and ERD (Entity Relationship Diagram)
 <img width="1875" height="1114" alt="Elist - ERD" src="https://github.com/user-attachments/assets/350e8c32-48f3-4edd-92ed-df76e876579b" />
 
-# Insights Deep Dive
-1. Monthly Revenue Performance
-- Revenue increased significantly from 2019 to 2020.
-- Monthly revenue peaked in December 2020 at approximately $1.3M.
-- The average monthly revenue across the full period was approximately $586K.
-- Most months in 2020 and 2021 performed above the average monthly revenue benchmark.
-- Revenue declined sharply in 2022, with most months falling below the average.
-- The lowest revenue month was October 2022, at approximately $178K.
-
-The monthly trend suggests the company experienced strong growth through 2020, maintained relatively strong performance in 2021, and then faced a noticeable slowdown in 2022. The decline in 2022 should be investigated further to determine whether it was caused by lower order volume, lower average order value, weaker product demand, marketing channel performance, or increased refunds.
-
-2. Order Count and Average Order Value
-- Order count and AOV help explain whether revenue changes were caused by customer demand or customer spending behavior.
-- If revenue declines while AOV remains stable, the issue is likely lower order volume.
-- If revenue declines while order count remains stable, the issue may be lower customer spending per order.
-- The dual-axis chart helps separate revenue performance into two drivers: number of orders and average spend per order.
-
-This analysis helps the business understand whether growth should come from acquiring more customers, increasing repeat purchases, improving pricing strategy, or encouraging larger basket sizes through bundles and upselling.
-
-3. Product Performance
-- Revenue was concentrated among a small group of products.
-- The top revenue-generating products were:
-  27in 4K Gaming Monitor, 
-  Apple AirPods Headphones, 
-  MacBook Air Laptop, 
-  ThinkPad Laptop, 
-  Samsung Charging Cable Pack
-- The 27in 4K Gaming Monitor was the highest revenue-generating product.
-- High-revenue products should be prioritized for inventory planning, marketing campaigns, and product strategy.
-
-A small group of products is responsible for a large share of total revenue. This creates both an opportunity and a risk. These products should receive strong inventory support and marketing attention, but the company should also avoid becoming too dependent on only a few products.
-
-
-4. Marketing Channel Performance
-- Direct traffic generated the highest revenue contribution.
-- Email was the second strongest marketing channel.
-- Affiliate, social media, and unknown channels contributed less revenue compared with direct and email.
-- Marketing performance should be evaluated not only by total revenue, but also by order count, AOV, and refund rate.
-
-Direct and email channels appear to be the strongest revenue drivers. This suggests the business may have an existing base of customers who return directly or respond well to email campaigns. Lower-performing channels should be reviewed to understand whether the issue is low traffic, poor conversion, weak customer quality, or lower average order value.
-
-5. Loyalty Status Analysis
-- Non-loyalty customers generated higher total revenue than loyalty customers.
-- Non-loyalty customers also had a higher average order value.
-- Loyalty customers had a higher refund rate than non-loyalty customers.
-- This suggests that loyalty membership does not automatically mean higher customer value in this dataset.
-
-The loyalty program should be reviewed to understand whether it is successfully increasing customer value. If loyalty customers have lower AOV or higher refund rates, the company may need to adjust loyalty offers, improve customer targeting, or evaluate whether discounts are attracting lower-margin behavior.
-
-
-6. Refund Risk
-- Overall refund rate was approximately 5%.
-- Some high-revenue products also had higher refund rates.
-- ThinkPad Laptop and MacBook Air Laptop showed higher refund rates compared with several other products.
-- Refund analysis is important because refunds reduce net revenue, increase operational costs, and may indicate product quality or customer satisfaction issues.
-
-High refund-rate products should be investigated by product, operations, and customer support teams. The issue may be related to product quality, product descriptions, shipping problems, customer expectations, or return policy behavior.
-
 # Recommendations
-- Sales and Revenue Strategy
-- Investigate the 2022 revenue decline to identify whether the drop was caused by lower order volume, lower AOV, weaker product demand, or marketing channel underperformance.
-- Use the monthly average revenue benchmark of approximately $586K as a performance reference for future months.
-- Review months that fall significantly below the benchmark to identify early warning signs.
+## Sales & Revenue (Finance, Executive Leadership)
 
-Relevant teams: Sales, Finance, Executive Leadership
+- Investigate the 2022 decline by channel and product before setting future targets
+- Use $586K monthly average as the ongoing performance benchmark
+- Do not use 2020 as a baseline for forecasting — treat it as a pandemic anomaly
 
-Product Strategy
-- Prioritize inventory and marketing support for the top revenue-generating products.
-- Monitor dependence on a small number of products, as revenue concentration can create business risk.
-- Review declining or low-performing products to determine whether they should be repositioned, discounted, bundled, or removed.
+## Product (Merchandising, Inventory)
 
-Relevant teams: Product, Inventory Management, Merchandising, Marketing
+- Prioritize inventory and marketing for Gaming Monitor and AirPods — 61% of revenue
+- Urgently investigate MacBook Air refund root cause — 11.4% rate at $6.3M revenue is costly
+- Review Apple iPhone for potential removal — high refund rate, low volume, underperforming revenue
 
-Loyalty Program Strategy
-- Reevaluate the loyalty program to determine whether loyalty customers are generating enough incremental value.
-- Compare loyalty and non-loyalty customers across revenue, order count, AOV, and refund rate.
-- Consider redesigning loyalty offers to encourage higher-value purchases rather than only discount-driven behavior.
-- Investigate why loyalty customers have a higher refund rate.
+## Loyalty Program (Customer Retention, Marketing)
 
-Relevant teams: Customer Retention, Marketing, Finance, Customer Experience
+- Keep and expand the loyalty program — it is the only metric growing as demand softens
+- Redesign offers to incentivize higher-value purchases and close the $34 AOV gap vs non-loyalty members
 
-Marketing Channel Strategy
-- Continue investing in high-performing channels such as direct and email.
-- Analyze lower-performing channels to determine whether they have low conversion rates, low AOV, or poor customer quality.
-- Track marketing channel performance using revenue, orders, AOV, and refund rate together instead of revenue alone.
+## Marketing (Growth, Marketing)
 
-Relevant teams: Marketing, Growth, Finance
+- Double down on direct and email — they drive 95% of revenue
+- Audit affiliate and social media by AOV and refund rate, not just revenue, before cutting or expanding
 
-Refund Reduction Strategy
- - Investigate products with higher refund rates, especially high-value products such as laptops.
- - Review product descriptions, customer reviews, shipping times, and customer support tickets to identify refund drivers.
- - Work with suppliers or operations teams to address potential quality or fulfillment issues.
+## Refunds (Operations, Customer Support)
 
-Relevant teams: Operations, Product, Customer Support, Quality Assurance
+- Investigate MacBook Air and ThinkPad return root causes — product descriptions, shipping, quality
+- Recover 2022 refund data before making any refund-based business decisions
 
-## Tools Used
-- Microsoft Excel: data cleaning, pivot analysis, initial exploration
-- BigQuery: SQL querying, data extraction, aggregation, and analysis
-- Tableau: dashboard creation and visual analytics
-- GitHub: project documentation and portfolio presentation
+
+# Assumptions and Caveats
+
+- 2022 refund data is incomplete — 0% refund rate reflects missing data, not actual performance
+- PURCHASE_MONTH was stored as an Excel serial number and converted to date format for analysis
+- All revenue figures are in USD — no currency conversion applied
+- 1.25% of orders had an unknown marketing channel and were excluded from channel analysis
+- Product name variants were cleaned and grouped — minor revenue discrepancies may exist
+- No customer ID field in the dataset — repeat purchase rate and lifetime value could not be calculated
+- 2020 figures are anomalous — pandemic-driven demand spike should not be used as a forecast baseline
+
+
+# Tools Used
+- Microsoft Excel - Data cleaning, pivot table analysis, initial exploration
+- BigQuery - SQL querying, data extraction, aggregation, and analysis
+- Tableau - Dashboard creation, visual analytics, Tableau Story
+- GitHub - Project documentation and portfolio presentation
