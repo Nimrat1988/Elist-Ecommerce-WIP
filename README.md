@@ -2,7 +2,8 @@
 
 
 # Project Background
-Elist is a global e-commerce company that sells consumer electronics — including laptops, monitors, headphones, and accessories — through its online storefront. The business operates across four major regions (North America, EMEA, APAC, and Latin America) and acquires customers primarily through direct, email, affiliate, and social media channels. The company offers a loyalty program designed to increase customer retention and repeat purchase rates.
+Elist is a global e-commerce company that sells consumer electronics, including laptops, monitors, headphones, and accessories, through its online storefront. The business operates across four major regions (North America, EMEA, APAC, and Latin America) and acquires customers primarily through direct, email, affiliate, and social media channels. The company offers a loyalty program designed to increase customer retention and repeat purchase rates.
+
 This project analyzes Elist's transactional data from 2019 to 2022 to answer four key business questions: how overall sales trended over time, what the monthly and yearly growth rates looked like, whether the loyalty program is delivering value, and how refund rates and average order values (AOV) performed across products. The goal is to surface actionable insights that can inform decisions across marketing, product, and customer success teams.
 
 ## Key terms and metrics used throughout this analysis:
@@ -10,15 +11,16 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 - Revenue - Total sales generated from customer purchases.
 - Order Count - Number of unique customer orders.
 - Average Order Value (AOV) - Average revenue generated per order.
--  Monthly Revenue Growth - Change in revenue across months.
--  Year-over-Year Growth - Revenue growth compared with the previous year.
+-  Mom/YoY Growth - Month-over-month and year-over-year % change in revenue.
 -  Refund Rate - Percentage of orders that were refunded.
 -  Loyalty Status - Indicates whether a customer is part of the loyalty program.
 -  Marketing Channel - Channel that influenced or generated the order.
--  Product Name - Product purchased by the customer.
--  Purchase Month / Year - Time period when the order was placed.
 
 ## Execitive Summary
+
+<p align="center">
+  <img src="desktop/Analytics Accelator Program/Visualiztions/Company Overview Dashboard.png" width="700"/>
+</p>
 
 This project analyzes over 108K e-commerce orders from 2019 to 2022. Total revenue was approximately $28.1M, with the strongest performance occurring in 2020. Revenue peaked in December 2020 at approximately $1.3M before declining in 2022, where most months fell below the overall monthly average of approximately $586K.
 
