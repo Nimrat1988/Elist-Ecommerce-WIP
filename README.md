@@ -17,7 +17,7 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 -  Loyalty Status - Indicates whether a customer is part of the loyalty program.
 -  Marketing Channel - Channel that influenced or generated the order.
 
-## Execitive Summary
+## Executive Summary
 
 <p align="center">
   <img width="2350" height="1251" alt="Company_Overview_Dashboard" src="https://github.com/user-attachments/assets/a3220ff9-84ae-45ee-983c-9229c4f7ad2d" />
