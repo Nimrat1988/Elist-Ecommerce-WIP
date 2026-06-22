@@ -3,7 +3,7 @@
 
 
 # Project Background
-Elist is a fictonal global e-commerce company that sells consumer electronics, including laptops, monitors, headphones, and accessories, through its online storefront. The business operates across four major regions (North America, EMEA, APAC, and Latin America) and acquires customers primarily through direct, email, affiliate, and social media channels. The company offers a loyalty program designed to increase customer retention and repeat purchase rates.
+Elist is a fictional global e-commerce company that sells consumer electronics, including laptops, monitors, headphones, and accessories, through its online storefront. The business operates across four major regions (North America, EMEA, APAC, and Latin America) and acquires customers primarily through direct, email, affiliate, and social media channels. The company offers a loyalty program designed to increase customer retention and repeat purchase rates.
 
 This project analyzes Elist's transactional data from 2019 to 2022 to answer four key business questions: how overall sales trended over time, what the monthly and yearly growth rates looked like, whether the loyalty program is delivering value, and how refund rates and average order values (AOV) performed across products. Regional performance was also analyzed to identify geographic trends. The goal is to surface actionable insights that can inform decisions across marketing, product, and customer success teams.
 
@@ -23,8 +23,8 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 <img width="856" height="507" alt="Company Overview" src="https://github.com/user-attachments/assets/cf8af21e-7477-41aa-aa4d-724c9463802b" />
 
 
-- Elist generaged **$28.1M** in total revenue across **$108,127** between 2019 and 2022, with an average order value of **$260** and an overall refund rate of **5%**.
-- Revenue grew steadily from 2019, surged during the pandemic, and peaked at **$1.3M in December 2020**, more than double the four-year montly average of $586K. every month in 2022 fell below that average, with the lowest point hitting **$178K in October 2022**, an 86% drop from peak.
+- Elist generated **$28.1M** in total revenue across **108,127** between 2019 and 2022, with an average order value of **$260** and an overall refund rate of **5%**.
+- Revenue grew steadily from 2019, surged during the pandemic, and peaked at **$1.3M in December 2020**, more than double the four-year monthly average of $586K. Every month in 2022 fell below that average, with the lowest point hitting **$178K in October 2022**, an 86% drop from peak.
 - 2020 delivered **108% revenue growth** driven by simultaneous gains in order volume and AOV. By 2022 the situation had reversed — revenue fell **47% year-over-year**, order count dropped **36%**, and AOV declined **18%**. All three metrics declining together confirms a broad demand contraction, not a product or channel-specific issue.
 - Non-loyalty customers still outspend loyalty members, generating **61% of total revenue** at a higher AOV of **$274 vs $240**. However loyalty revenue grew **6x from $415K to $2.7M** while non-loyalty collapsed from $7.2M to $2.2M. By 2022 the two groups were nearly equal, the program is gaining traction precisely as organic demand fails.
 - Direct channel dominates at **82.65% of total revenue (~$23M)**. Email contributes another **11.92%**. Together they account for 95% of all sales. Affiliate and social media combined contribute under 5% — their ROI warrants review.
@@ -38,7 +38,7 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 # Insights Deep-Dive
 ## 1. Sales Trends - Strong Growth Through 2020 Followed by Consistent Decline Through 2022
 
-<img width="1995" height="1170" alt="Montly trend" src="https://github.com/user-attachments/assets/7e6fced7-d8c2-4766-86a6-52c8d76e2a77" />
+<img width="1995" height="1170" alt="Montly Trend" src="https://github.com/user-attachments/assets/7e6fced7-d8c2-4766-86a6-52c8d76e2a77" />
 
 - Revenue peaked at $1.3M in December 2020 — more than double the four-year monthly average of $586K shown by the orange reference line.
 - Revenue remained above average through most of 2021 before declining consistently — every month in 2022 fell below the $586K benchmark.
