@@ -127,7 +127,8 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 
 ## 8. Refund Risk — MacBook Air Is the Highest-Risk Product
 
-<img width="2127" height="1171" alt="Refund Risk" src="https://github.com/user-attachments/assets/fe75ed2c-2a89-421a-bd87-2c4f9d0968ba" />
+<img width="1237" height="1113" alt="Refund Risk" src="https://github.com/user-attachments/assets/2fef0da6-e6b7-452a-9d5b-3759d0fa5710" />
+
 
 - MacBook Air sits in the top-right danger quadrant — high revenue ($6.3M) and 11.4% refund rate — both above average.
 - ThinkPad is borderline at 11.8% refund rate but lower revenue limits the total dollar impact.
