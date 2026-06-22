@@ -31,6 +31,9 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 - Four products carry the business — the 27in 4K Gaming Monitor ($9.85M), Apple AirPods ($7.74M), MacBook Air ($6.3M), and ThinkPad Laptop ($3.2M). All four declined sharply in 2022 with no replacement products in the catalog positioned to fill the gap.
 - MacBook Air is the highest-risk product, **11.4% refund rate** at $6.3M revenue puts it in the top-right danger quadrant. ThinkPad follows at **11.8%** with lower revenue limiting the damage. Gaming Monitor and AirPods are healthy despite high volume. Note: 2022 refund data is incomplete and shows 0% — this reflects missing data, not actual performance.
 
+[View the full interactive Tableau story](https://public.tableau.com/app/profile/nimrat.kaur2103/viz/ElistPost-PandemicE-commerceAnalysis/Story1?publish=yes)
+
+
 ## Data Structure and ERD (Entity Relationship Diagram)
 <img width="1875" height="1114" alt="Elist - ERD" src="https://github.com/user-attachments/assets/350e8c32-48f3-4edd-92ed-df76e876579b" />
 
