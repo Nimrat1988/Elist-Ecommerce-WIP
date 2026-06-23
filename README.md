@@ -88,7 +88,7 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 - Non-loyalty customers account for 61% of total sales vs loyalty at 39%.
 - Non-loyalty AOV ($274.55) is 14% higher than loyalty AOV ($240.12).
 - Non-loyalty customers place more orders — 58% of total order count vs loyalty at 42%.
-- Loyalty program may be attracting discount-driven behaviour rather than high-value purchases — the offer structure should be reviewed.
+- Loyalty program may be attracting discount-driven behaviour rather than high-value purchases, the offer structure should be reviewed.
 
 
 ## 5. Marketing Channels — The Business Runs on Two Channels
