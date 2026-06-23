@@ -62,9 +62,9 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 
 <img width="632" height="351" alt="Yearly Growth" src="https://github.com/user-attachments/assets/1808cdec-0138-4b24-a817-01e850a061aa" />
 
-- 2020 delivered 108% revenue growth, 48% AOV growth, and 40% order count growth — all three metrics grew simultaneously.
-- 2021 showed early deceleration — revenue fell 41%, order count dropped 22%, and AOV declined 24%.
-- 2022 was the worst year across every metric — revenue down 47%, order count down 36%, AOV down 18%.
+- 2020 delivered 108% revenue growth, 48% AOV growth, and 40% order count growth, all three metrics grew simultaneously.
+- 2021 showed early deceleration revenue fell 41%, order count dropped 22%, and AOV declined 24%.
+- 2022 was the worst year across every metric, revenue down 47%, order count down 36%, AOV down 18%.
 - Consistent decline across all three metrics confirms a broad market contraction, not a product or channel-specific issue.
 
 
@@ -75,10 +75,10 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 <img width="500" height="1141" alt="Loyalty Status" src="https://github.com/user-attachments/assets/3d5058ec-4d76-4e09-a25a-8361f3d952be" /> 
 
 
-- Non-loyalty customers outspent loyalty members in every year — but the gap is closing fast.
+- Non-loyalty customers outspent loyalty members in every year, but the gap is closing fast.
 - Loyalty revenue grew from $415K in 2019 to $2.7M in 2022 — a 6x increase.
 - Non-loyalty revenue collapsed from $7.2M in 2020 to $2.2M in 2022.
-- By 2022 the two groups were nearly equal in revenue — the program is gaining traction precisely as organic demand fails.
+- By 2022 the two groups were nearly equal in revenue, the program is gaining traction precisely as organic demand fails.
 
 
 
@@ -87,7 +87,7 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 
 - Non-loyalty customers account for 61% of total sales vs loyalty at 39%.
 - Non-loyalty AOV ($274.55) is 14% higher than loyalty AOV ($240.12).
-- Non-loyalty customers place more orders — 58% of total order count vs loyalty at 42%.
+- Non-loyalty customers place more orders, 58% of total order count vs loyalty at 42%.
 - Loyalty program may be attracting discount-driven behaviour rather than high-value purchases, the offer structure should be reviewed.
 
 
@@ -99,7 +99,7 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 
 
 - Direct channel drives 82.65% of total revenue (~$23M), overwhelming dominance.
-- Email adds another 11.92% — together they account for 95% of all revenue.
+- Email adds another 11.92%, together they account for 95% of all revenue.
 - Affiliate and social media combined contribute under 5%.
 - The business is heavily dependent on two channels, diversification is a strategic risk to address.
 
@@ -108,10 +108,10 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 
 <img width="1342" height="246" alt="Product Performance" src="https://github.com/user-attachments/assets/264cd616-6ac0-458d-ad8d-a124434ffb8a" />
 
-- 27in 4K Gaming Monitor led revenue at $9.85M across all years — strongest single product.
-- Apple AirPods led order volume at 48,404 units — highest demand product despite lower AOV of $160.
-- MacBook Air had the highest AOV at $1,588 — most valuable per transaction.
-- All four top products declined sharply in 2022 — MacBook Air fell from $1.9M to $852K, a 55% single-year decline.
+- 27in 4K Gaming Monitor led revenue at $9.85M across all years, strongest single product.
+- Apple AirPods led order volume at 48,404 units, highest demand product despite lower AOV of $160.
+- MacBook Air had the highest AOV at $1,588, most valuable per transaction.
+- All four top products declined sharply in 2022, MacBook Air fell from $1.9M to $852K, a 55% single-year decline.
 - No other product in the catalog is positioned to replace them if the decline continues.
 
 
@@ -119,10 +119,10 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 
 <img width="659" height="465" alt="Region Performance" src="https://github.com/user-attachments/assets/a4a5739f-9757-48da-8f2f-249c08a25592" />
 
-- NA consistently led every year — peaking at $5.3M in 2020, nearly double EMEA's peak of $2.9M.
+- NA consistently led every year, peaking at $5.3M in 2020, nearly double EMEA's peak of $2.9M.
 - EMEA was a consistent second, followed by APAC then LATAM.
 - 2020 was the peak year across every single region — pandemic demand was a global phenomenon.
-- Every region declined in 2022 — NA dropped from $4.5M to $2.7M, EMEA from $2.8M to $1.4M.
+- Every region declined in 2022, NA dropped from $4.5M to $2.7M, EMEA from $2.8M to $1.4M.
 - LATAM never exceeded $0.6M in any single year — worth investigating whether continued investment is justified.
 - Grand Total confirms the overall story — $10.2M peak in 2020 down to $5.0M in 2022, a 51% decline.
 
@@ -132,11 +132,11 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 <img width="1237" height="1113" alt="Refund Risk" src="https://github.com/user-attachments/assets/2fef0da6-e6b7-452a-9d5b-3759d0fa5710" />
 
 
-- MacBook Air sits in the top-right danger quadrant — high revenue ($6.3M) and 11.4% refund rate — both above average.
+- MacBook Air sits in the top-right danger quadrant, high revenue ($6.3M) and 11.4% refund rate, both above average.
 - ThinkPad is borderline at 11.8% refund rate but lower revenue limits the total dollar impact.
-- Gaming Monitor and AirPods are healthy — high revenue, refund rates near or below the 5.8% average.
+- Gaming Monitor and AirPods are healthy, high revenue, refund rates near or below the 5.8% average.
 - Samsung accessories are low priority on both dimensions — low revenue and near-zero refund rates.
-- Apple iPhone sits in the Investigate quadrant — 7.6% refund rate with low order count and underperforming revenue.
+- Apple iPhone sits in the Investigate quadrant, 7.6% refund rate with low order count and underperforming revenue.
 
 
 
@@ -145,22 +145,22 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 
 - Investigate the 2022 decline by channel and product before setting future targets
 - Use $586K monthly average as the ongoing performance benchmark
-- Do not use 2020 as a baseline for forecasting — treat it as a pandemic anomaly
+- Do not use 2020 as a baseline for forecasting, treat it as a pandemic anomaly
 
 ## Product (Merchandising, Inventory)
 
 - Prioritize inventory and marketing for Gaming Monitor and AirPods — 61% of revenue
-- Urgently investigate MacBook Air refund root cause — 11.4% rate at $6.3M revenue is costly
-- Review Apple iPhone for potential removal — high refund rate, low volume, underperforming revenue
+- Urgently investigate MacBook Air refund root cause, 11.4% rate at $6.3M revenue is costly
+- Review Apple iPhone for potential removal, high refund rate, low volume, underperforming revenue
 
 ## Loyalty Program (Customer Retention, Marketing)
 
-- Keep and expand the loyalty program — it is the only metric growing as demand softens
+- Keep and expand the loyalty program, it is the only metric growing as demand softens
 - Redesign offers to incentivize higher-value purchases and close the $34 AOV gap vs non-loyalty members
 
 ## Marketing (Growth, Marketing)
 
-- Double down on direct and email — they drive 95% of revenue and are proven performers
+- Double down on direct and email - they drive 95% of revenue and are proven performers
 - Audit affiliate and social media by AOV and refund rate, not just revenue, before cutting or expanding
 
 ## Regional (Sales, International)
