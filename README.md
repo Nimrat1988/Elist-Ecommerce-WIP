@@ -40,9 +40,9 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 
 <img width="1995" height="1170" alt="Montly Trend" src="https://github.com/user-attachments/assets/7e6fced7-d8c2-4766-86a6-52c8d76e2a77" />
 
-- Revenue peaked at $1.3M in December 2020 — more than double the four-year monthly average of $586K shown by the orange reference line.
-- Revenue remained above average through most of 2021 before declining consistently — every month in 2022 fell below the $586K benchmark.
-- The lowest monthly revenue was $178K in October 2022 — an 86% drop from the December 2020 peak.
+- Revenue peaked at $1.3M in December 2020, more than double the four-year monthly average of $586K shown by the orange reference line.
+- Revenue remained above average through most of 2021 before declining consistently, every month in 2022 fell below the $586K benchmark.
+- The lowest monthly revenue was $178K in October 2022, an 86% drop from the December 2020 peak.
 - The pandemic created an outsized demand spike for consumer electronics that should be treated as an anomaly when projecting future baselines.
 
 
@@ -53,8 +53,8 @@ This project analyzes Elist's transactional data from 2019 to 2022 to answer fou
 
 - Order count peaked at 4,019 in November 2020 and fell to a low of 825 by late 2022 - a 79% decline.
 - AOV peaked at $321.50 during the 2020 surge and compressed to $216.09 by 2022 — a 33% drop.
-- In 2022 both metrics declined simultaneously — confirming the revenue decline was demand-driven, not a pricing issue.
-- The 2020 peak was driven by both volume and spend — two tailwinds that both reversed after the pandemic.
+- In 2022 both metrics declined simultaneously, confirming the revenue decline was demand-driven, not a pricing issue.
+- The 2020 peak was driven by both volume and spend, two tailwinds that both reversed after the pandemic.
 
 
 
